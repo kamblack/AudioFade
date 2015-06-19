@@ -1,18 +1,18 @@
 # AudioFade
 jQuery plugin for manipulating audio as you scroll
 
-# Dependancies
+### Dependancies
 jQuery 1.2.6 or later
 
-# What can it do?
+### What can it do?
 AudioFade is for playing different sounds and fading them in and out again as you scroll down the page. It can also play sounds immediately, without a fade needed.
 
-# Setting it up
+### Setting it up
 Just link to AudioFade after jQuery:
 
 ```
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/AudioFade.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/AudioFade.js"></script>
 ```
 
 Then add your `<audio>` element to the HTML, including the `loop` attribute if you want the sound to keep looping:
@@ -29,7 +29,7 @@ Finally, just declare a new AudioFade object and initiate it:
 var a = new AudioFade('#elementId', 300, 900, 200).init();
 ```
 
-# Documentation
+### Documentation
 The syntax for the AudioFade object is pretty simple:
 
 ```
@@ -54,7 +54,7 @@ var b = new AudioFade('#song1', 500, 3000).init();
 
 In the above example, the fades would last for 500 pixels as per the default.
 
-# What's to come
+### What's to come
 * More intuitive duration definitions, ie "fast", "slow", etc.
 * Control based on element position in the viewport and not the pixel position.
 * ...
