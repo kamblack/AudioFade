@@ -2,24 +2,18 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>jQuery Plugin for Audio - AudioFade</title>
 <style>
-.article1 {
+.article1,
+.article2 {
 	height: 3000px;
 	background-color: #0F5B06;
 	color: #fff;
 	font-size: 2em;
 	text-align: center;
-	padding: 10px;
+	padding: 10px 20px;
 }
-.article2 {
-	height: 3000px;
-	background-color: #51059B;
-	color: #fff;
-	font-size: 2em;
-	text-align: center;
-	padding: 10px;
-}
+.article2 { background-color: #51059B; }
 
 p {
     font-family: Tahoma, Arial, sans-serif;
@@ -31,7 +25,8 @@ p {
 </head>
 
 <body>
-<div class="article1"><p>Scroll! :D</p>
+<div class="article1">
+    <p>AudioFade will control the timing and volume of <code>&lt;audio&gt;</code> elements as you scroll. <a href="https://github.com/KamboBlack/AudioFade/">Read about it</a> or take a <s>look</s> listen: 🠋</p>
     <audio loop id="scrollaudio" src="sound/complex.mp3"></audio>
     <audio loop id="scrollaudio2" src="sound/amok.mp3"></audio>
     <audio id="scrollaudio3" src="sound/correct.wav"></audio>
